@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73E7F0E202B07FB00A31322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E7F0D202B07FB00A31322 /* AppDelegate.swift */; };
+		E73E7F10202B07FB00A31322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E7F0F202B07FB00A31322 /* ViewController.swift */; };
+		E73E7F13202B07FB00A31322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E7F11202B07FB00A31322 /* Main.storyboard */; };
+		E73E7F18202B07FB00A31322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73E7F17202B07FB00A31322 /* Assets.xcassets */; };
+		E73E7F1B202B07FB00A31322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E7F19202B07FB00A31322 /* LaunchScreen.storyboard */; };
+		E73E7F26202B07FB00A31322 /* ProvaCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E7F25202B07FB00A31322 /* ProvaCoreDataTests.swift */; };
+		E73E7F31202B07FB00A31322 /* ProvaCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E7F30202B07FB00A31322 /* ProvaCoreDataUITests.swift */; };
+		E73E7F4B202C471000A31322 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E7F4A202C471000A31322 /* CoreDataController.swift */; };
+		E73E7F4E202C938200A31322 /* ProvaCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E73E7F4C202C938200A31322 /* ProvaCoreData.xcdatamodeld */; };
+		E75DAC7F202D9F9200F9E978 /* EntityN+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DAC7B202D9F9200F9E978 /* EntityN+CoreDataClass.swift */; };
+		E75DAC80202D9F9200F9E978 /* EntityN+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DAC7C202D9F9200F9E978 /* EntityN+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73E7F22202B07FB00A31322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73E7F02202B07FB00A31322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73E7F09202B07FB00A31322;
+			remoteInfo = ProvaCoreData;
+		};
+		E73E7F2D202B07FB00A31322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73E7F02202B07FB00A31322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73E7F09202B07FB00A31322;
+			remoteInfo = ProvaCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73E7F0A202B07FB00A31322 /* ProvaCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvaCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E7F0D202B07FB00A31322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73E7F0F202B07FB00A31322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E73E7F12202B07FB00A31322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73E7F17202B07FB00A31322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73E7F1A202B07FB00A31322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E73E7F1C202B07FB00A31322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E7F21202B07FB00A31322 /* ProvaCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E7F25202B07FB00A31322 /* ProvaCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaCoreDataTests.swift; sourceTree = "<group>"; };
+		E73E7F27202B07FB00A31322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E7F2C202B07FB00A31322 /* ProvaCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E7F30202B07FB00A31322 /* ProvaCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaCoreDataUITests.swift; sourceTree = "<group>"; };
+		E73E7F32202B07FB00A31322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E7F47202B0CBC00A31322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "Base.lproj/Libro+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E73E7F49202B0CBC00A31322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "Base.lproj/Libro+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E73E7F4A202C471000A31322 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		E73E7F4D202C938200A31322 /* ProvaCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProvaCoreData.xcdatamodel; sourceTree = "<group>"; };
+		E75DAC7B202D9F9200F9E978 /* EntityN+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EntityN+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E75DAC7C202D9F9200F9E978 /* EntityN+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EntityN+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73E7F07202B07FB00A31322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E7F1E202B07FB00A31322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E7F29202B07FB00A31322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73E7F01202B07FB00A31322 = {
+			isa = PBXGroup;
+			children = (
+				E73E7F0C202B07FB00A31322 /* ProvaCoreData */,
+				E73E7F24202B07FB00A31322 /* ProvaCoreDataTests */,
+				E73E7F2F202B07FB00A31322 /* ProvaCoreDataUITests */,
+				E73E7F0B202B07FB00A31322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73E7F0B202B07FB00A31322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73E7F0A202B07FB00A31322 /* ProvaCoreData.app */,
+				E73E7F21202B07FB00A31322 /* ProvaCoreDataTests.xctest */,
+				E73E7F2C202B07FB00A31322 /* ProvaCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73E7F0C202B07FB00A31322 /* ProvaCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E75DAC7B202D9F9200F9E978 /* EntityN+CoreDataClass.swift */,
+				E75DAC7C202D9F9200F9E978 /* EntityN+CoreDataProperties.swift */,
+				E73E7F46202B0CBC00A31322 /* Libro+CoreDataClass.swift */,
+				E73E7F48202B0CBC00A31322 /* Libro+CoreDataProperties.swift */,
+				E73E7F0D202B07FB00A31322 /* AppDelegate.swift */,
+				E73E7F0F202B07FB00A31322 /* ViewController.swift */,
+				E73E7F11202B07FB00A31322 /* Main.storyboard */,
+				E73E7F17202B07FB00A31322 /* Assets.xcassets */,
+				E73E7F19202B07FB00A31322 /* LaunchScreen.storyboard */,
+				E73E7F4C202C938200A31322 /* ProvaCoreData.xcdatamodeld */,
+				E73E7F1C202B07FB00A31322 /* Info.plist */,
+				E73E7F4A202C471000A31322 /* CoreDataController.swift */,
+			);
+			path = ProvaCoreData;
+			sourceTree = "<group>";
+		};
+		E73E7F24202B07FB00A31322 /* ProvaCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73E7F25202B07FB00A31322 /* ProvaCoreDataTests.swift */,
+				E73E7F27202B07FB00A31322 /* Info.plist */,
+			);
+			path = ProvaCoreDataTests;
+			sourceTree = "<group>";
+		};
+		E73E7F2F202B07FB00A31322 /* ProvaCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E73E7F30202B07FB00A31322 /* ProvaCoreDataUITests.swift */,
+				E73E7F32202B07FB00A31322 /* Info.plist */,
+			);
+			path = ProvaCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73E7F09202B07FB00A31322 /* ProvaCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E7F35202B07FB00A31322 /* Build configuration list for PBXNativeTarget "ProvaCoreData" */;
+			buildPhases = (
+				E73E7F06202B07FB00A31322 /* Sources */,
+				E73E7F07202B07FB00A31322 /* Frameworks */,
+				E73E7F08202B07FB00A31322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProvaCoreData;
+			productName = ProvaCoreData;
+			productReference = E73E7F0A202B07FB00A31322 /* ProvaCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73E7F20202B07FB00A31322 /* ProvaCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E7F38202B07FB00A31322 /* Build configuration list for PBXNativeTarget "ProvaCoreDataTests" */;
+			buildPhases = (
+				E73E7F1D202B07FB00A31322 /* Sources */,
+				E73E7F1E202B07FB00A31322 /* Frameworks */,
+				E73E7F1F202B07FB00A31322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73E7F23202B07FB00A31322 /* PBXTargetDependency */,
+			);
+			name = ProvaCoreDataTests;
+			productName = ProvaCoreDataTests;
+			productReference = E73E7F21202B07FB00A31322 /* ProvaCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E73E7F2B202B07FB00A31322 /* ProvaCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E7F3B202B07FB00A31322 /* Build configuration list for PBXNativeTarget "ProvaCoreDataUITests" */;
+			buildPhases = (
+				E73E7F28202B07FB00A31322 /* Sources */,
+				E73E7F29202B07FB00A31322 /* Frameworks */,
+				E73E7F2A202B07FB00A31322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73E7F2E202B07FB00A31322 /* PBXTargetDependency */,
+			);
+			name = ProvaCoreDataUITests;
+			productName = ProvaCoreDataUITests;
+			productReference = E73E7F2C202B07FB00A31322 /* ProvaCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73E7F02202B07FB00A31322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Giorgio Maddaloni";
+				TargetAttributes = {
+					E73E7F09202B07FB00A31322 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E73E7F20202B07FB00A31322 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E73E7F09202B07FB00A31322;
+					};
+					E73E7F2B202B07FB00A31322 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E73E7F09202B07FB00A31322;
+					};
+				};
+			};
+			buildConfigurationList = E73E7F05202B07FB00A31322 /* Build configuration list for PBXProject "ProvaCoreData" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73E7F01202B07FB00A31322;
+			productRefGroup = E73E7F0B202B07FB00A31322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73E7F09202B07FB00A31322 /* ProvaCoreData */,
+				E73E7F20202B07FB00A31322 /* ProvaCoreDataTests */,
+				E73E7F2B202B07FB00A31322 /* ProvaCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73E7F08202B07FB00A31322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E7F1B202B07FB00A31322 /* LaunchScreen.storyboard in Resources */,
+				E73E7F18202B07FB00A31322 /* Assets.xcassets in Resources */,
+				E73E7F13202B07FB00A31322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E7F1F202B07FB00A31322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E7F2A202B07FB00A31322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73E7F06202B07FB00A31322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75DAC7F202D9F9200F9E978 /* EntityN+CoreDataClass.swift in Sources */,
+				E75DAC80202D9F9200F9E978 /* EntityN+CoreDataProperties.swift in Sources */,
+				E73E7F10202B07FB00A31322 /* ViewController.swift in Sources */,
+				E73E7F4E202C938200A31322 /* ProvaCoreData.xcdatamodeld in Sources */,
+				E73E7F4B202C471000A31322 /* CoreDataController.swift in Sources */,
+				E73E7F0E202B07FB00A31322 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E7F1D202B07FB00A31322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E7F26202B07FB00A31322 /* ProvaCoreDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E7F28202B07FB00A31322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E7F31202B07FB00A31322 /* ProvaCoreDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73E7F23202B07FB00A31322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73E7F09202B07FB00A31322 /* ProvaCoreData */;
+			targetProxy = E73E7F22202B07FB00A31322 /* PBXContainerItemProxy */;
+		};
+		E73E7F2E202B07FB00A31322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73E7F09202B07FB00A31322 /* ProvaCoreData */;
+			targetProxy = E73E7F2D202B07FB00A31322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E73E7F11202B07FB00A31322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E7F12202B07FB00A31322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E73E7F19202B07FB00A31322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E7F1A202B07FB00A31322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E73E7F46202B0CBC00A31322 /* Libro+CoreDataClass.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E7F47202B0CBC00A31322 /* Base */,
+			);
+			name = "Libro+CoreDataClass.swift";
+			sourceTree = "<group>";
+		};
+		E73E7F48202B0CBC00A31322 /* Libro+CoreDataProperties.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E7F49202B0CBC00A31322 /* Base */,
+			);
+			name = "Libro+CoreDataProperties.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73E7F33202B07FB00A31322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E73E7F34202B07FB00A31322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73E7F36202B07FB00A31322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvaCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GiorgioMaddaloni.ProvaCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E73E7F37202B07FB00A31322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvaCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GiorgioMaddaloni.ProvaCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E73E7F39202B07FB00A31322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvaCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GiorgioMaddaloni.ProvaCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvaCoreData.app/ProvaCoreData";
+			};
+			name = Debug;
+		};
+		E73E7F3A202B07FB00A31322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvaCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GiorgioMaddaloni.ProvaCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvaCoreData.app/ProvaCoreData";
+			};
+			name = Release;
+		};
+		E73E7F3C202B07FB00A31322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvaCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GiorgioMaddaloni.ProvaCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvaCoreData;
+			};
+			name = Debug;
+		};
+		E73E7F3D202B07FB00A31322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProvaCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GiorgioMaddaloni.ProvaCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvaCoreData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73E7F05202B07FB00A31322 /* Build configuration list for PBXProject "ProvaCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E7F33202B07FB00A31322 /* Debug */,
+				E73E7F34202B07FB00A31322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73E7F35202B07FB00A31322 /* Build configuration list for PBXNativeTarget "ProvaCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E7F36202B07FB00A31322 /* Debug */,
+				E73E7F37202B07FB00A31322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73E7F38202B07FB00A31322 /* Build configuration list for PBXNativeTarget "ProvaCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E7F39202B07FB00A31322 /* Debug */,
+				E73E7F3A202B07FB00A31322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73E7F3B202B07FB00A31322 /* Build configuration list for PBXNativeTarget "ProvaCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E7F3C202B07FB00A31322 /* Debug */,
+				E73E7F3D202B07FB00A31322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E73E7F4C202C938200A31322 /* ProvaCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E73E7F4D202C938200A31322 /* ProvaCoreData.xcdatamodel */,
+			);
+			currentVersion = E73E7F4D202C938200A31322 /* ProvaCoreData.xcdatamodel */;
+			path = ProvaCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E73E7F02202B07FB00A31322 /* Project object */;
+}

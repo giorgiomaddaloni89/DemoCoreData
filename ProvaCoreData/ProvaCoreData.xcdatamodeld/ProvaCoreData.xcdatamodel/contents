@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EntityN" representedClassName="EntityN" syncable="YES">
+        <attribute name="chiavePrimaria" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chiaveEsterna" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Libro" inverseName="pk" inverseEntity="Libro" syncable="YES"/>
+    </entity>
+    <entity name="Libro" representedClassName="Libro" syncable="YES" codeGenerationType="class">
+        <attribute name="autore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pagine" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="pk" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EntityN" inverseName="chiaveEsterna" inverseEntity="EntityN" syncable="YES"/>
+        <userInfo>
+            <entry key="key" value="value"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="Libro" positionX="-576" positionY="1136" width="128" height="103"/>
+        <element name="EntityN" positionX="-909" positionY="1131" width="128" height="73"/>
+    </elements>
+</model>
